@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tutorial-rotas';
+
+  hidden = false;
+  toggleBadgeVisibility() {
+    this.hidden = !this.hidden;
+}
 }
